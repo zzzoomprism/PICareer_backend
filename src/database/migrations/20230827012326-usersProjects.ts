@@ -8,9 +8,9 @@ module.exports = {
   ): Promise<void> => {
     return queryInterface.createTable('UsersProjects', {
       id: {
-        type: Sequelize.DataTypes.UUID,
+        type: Sequelize.DataTypes.INTEGER,
         primaryKey: true,
-        defaultValue: Sequelize.DataTypes.UUIDV4
+        autoIncrement: true
       },
 
       userId: {
