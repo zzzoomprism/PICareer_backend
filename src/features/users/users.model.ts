@@ -8,8 +8,8 @@ import {
   Table,
   Unique
 } from 'sequelize-typescript';
-import { Project } from '../projects/projects.model';
-import { UsersProjects } from '../userProjectsRelation/users-projects.model';
+import { Project } from '@features/projects/projects.model';
+import { UsersProjects } from '@features/userProjectsRelation/users-projects.model';
 
 @Table
 export class User extends Model {

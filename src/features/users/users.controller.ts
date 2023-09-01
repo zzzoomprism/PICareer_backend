@@ -1,6 +1,6 @@
 import { Body, Controller, Get, UseFilters, Param, Post, HttpStatus } from '@nestjs/common';
-import { HttpExceptionFilter } from 'src/exceptions/HttpExceptionFilter';
-import { DBException } from 'src/exceptions/DBException';
+import { HttpExceptionFilter } from '@exceptions/HttpExceptionFilter';
+import { DBException } from '@exceptions/DBException';
 import { User } from './users.model';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UsersService } from './users.service';

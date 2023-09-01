@@ -1,4 +1,4 @@
-import { Project } from 'src/features/projects/projects.model';
+import { Project } from '@features/projects/projects.model';
 
 export class CreateUserDto {
   firstName: string;

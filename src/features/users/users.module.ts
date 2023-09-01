@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { SequelizeModule } from '@nestjs/sequelize';
-import { UsersController } from '../../features/users/users.controller';
-import { UsersProjects } from '../userProjectsRelation/users-projects.model';
+import { UsersController } from '@features/users/users.controller';
+import { UsersProjects } from '@features/userProjectsRelation/users-projects.model';
 import { UsersService } from './users.service';
 import { User } from './users.model';
 

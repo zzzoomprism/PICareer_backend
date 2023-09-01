@@ -7,8 +7,8 @@ import {
   PrimaryKey,
   Table
 } from 'sequelize-typescript';
-import { User } from '../users/users.model';
-import { UsersProjects } from '../userProjectsRelation/users-projects.model';
+import { User } from '@features/users/users.model';
+import { UsersProjects } from '@features/userProjectsRelation/users-projects.model';
 
 @Table
 export class Project extends Model {

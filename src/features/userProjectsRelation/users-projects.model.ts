@@ -1,6 +1,6 @@
 import { Column, ForeignKey, Model, Table } from 'sequelize-typescript';
-import { User } from '../users/users.model';
-import { Project } from '../projects/projects.model';
+import { User } from '@features/users/users.model';
+import { Project } from '@features/projects/projects.model';
 
 @Table
 export class UsersProjects extends Model {

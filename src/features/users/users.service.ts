@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/sequelize';
-import { Project } from '../projects/projects.model';
-import { UsersProjects } from '../userProjectsRelation/users-projects.model';
+import { Project } from '@features/projects/projects.model';
+import { UsersProjects } from '@features/userProjectsRelation/users-projects.model';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UserFindByIdArguments } from './models/types';
 import { User } from './users.model';
